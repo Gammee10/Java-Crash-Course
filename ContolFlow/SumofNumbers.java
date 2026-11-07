@@ -1,3 +1,4 @@
+package ContolFlow;
 import java.util.Scanner;
 public class SumofNumbers {
     public static void main(String[] args) {
