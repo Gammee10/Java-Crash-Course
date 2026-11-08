@@ -1,4 +1,5 @@
 package ClassAndObject;
+import java.util.Scanner;
 class Student{
         String name;
         int age;
@@ -17,7 +18,15 @@ class Student{
 public class StudentClass {
     
     public static void main(String[] args) {
-        Student s1 = new Student("Abel", 20, "AB123");
+        Scanner input = new Scanner(System.in);
+        System.out.println("name: ");
+        String name = input.nextLine();
+        System.out.println("age: ");
+        int age = input.nextInt();  
+        System.out.println("StudentId: ");
+        String StudentId = input.next(); 
+        Student s1 = new Student(name, age, StudentId);
         s1.displayInfo();
+        input.close();
 }
 }
