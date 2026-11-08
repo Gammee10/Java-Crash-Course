@@ -1,6 +1,6 @@
-package ContolFlow;
+package controlflow;
 import java.util.Scanner;
-public class SumofNumbers {
+public class SumOfNumbers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a positive integer: ");
